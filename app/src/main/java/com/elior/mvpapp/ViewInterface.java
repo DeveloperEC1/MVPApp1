@@ -1,6 +1,6 @@
 package com.elior.mvpapp;
 
-public interface View {
+public interface ViewInterface {
 
     void updateUserInfoTextView(String info);
 

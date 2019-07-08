@@ -12,7 +12,7 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity implements com.elior.mvpapp.View {
+public class MainActivity extends AppCompatActivity implements ViewInterface {
 
     private MainActivityPresenter presenter;
     private TextView myTextView;
